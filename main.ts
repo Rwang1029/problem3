@@ -8,7 +8,7 @@ let y2 = 0
 function showLwd (x: number, y: number, dir: number) {
     x0 = 4
     y0 = 0
-    for (let I = 0; I <= 4; I++) {
+    for (let I = 0; I <= 2; I++) {
         j = 0
         led.plot(x0, y0)
         while (j <= I - 1) {
